@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reactive" Version="3.1.1" />
+    <PackageReference Include="System.Reactive.Linq" Version="3.1.1" />
+    <PackageReference Include="System.Reactive.Interfaces" Version="3.1.1" />
+    <PackageReference Include="System.Reactive.Core" Version="3.1.1" />
+    <PackageReference Include="System.Reactive.PlatformServices" Version="3.1.1" />
+    <PackageReference Include="refit" Version="4.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="SQLite.Net-PCL" Version="3.1.1" />
+    <PackageReference Include="SQLite.Net.Core-PCL" Version="3.1.1" />
+    <PackageReference Include="SQLite.Net.Async-PCL" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="1.1.0-preview" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\LabelResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LabelResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Config.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Config.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="WebServices\StockItemContract.cs" />
+    <Compile Remove="WebServices\StocklistWebServiceController.cs" />
+    <Compile Remove="WebServices\TokenBody.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resources\LabelResources.Designer.cs">
+      <DependentUpon>LabelResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Config.Designer.cs">
+      <DependentUpon>Config.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+    <data name="MediaServicesBaseUrl" xml:space="preserve">
+        <value>https://viime.restv2.southcentralus.media.azure.net/</value>
+    </data>
+	<data name="ActiveDirectoryBaseUrl" xml:space="preserve">
+        <value>https://login.microsoftonline.com/</value>
+    </data>
+	<data name="ActiveDirectoryTenantId" xml:space="preserve">
+        <value>viime.onmicrosoft.com</value>
+    </data>
+	<data name="MediaServicesPrimaryKey" xml:space="preserve">
+        <value>T8rw0FAYk+Vzjo/tk01Uj41BjeUQ/A4vFPt+nI10khg=</value>
+    </data>
+    <data name="MediaServicesAuthority" xml:space="preserve">
+        <value>https://microsoft.onmicrosoft.com/ee5984c5-5a4f-eb4a-a87b-6ccab33534d2</value>
+    </data>
+    <data name="MediaServicesClientId" xml:space="preserve">
+        <value>42d59532-f239-4669-9c22-fa8243277139</value>
+    </data>
+	<data name="MediaServicesClientSecret" xml:space="preserve">
+        <value>y0cwQE5OZ5gkT501dtco0oKfySMh3HoxFmzXzqanTHs=</value>
+    </data>
+	<data name="MediaServicesResourceUrl" xml:space="preserve">
+        <value>https://rest.media.azure.net</value>
+    </data>
+	<data name="MediaServicesPolicy" xml:space="preserve">
+        <value>B2C_1_default_signup_signin</value>
+    </data>
+	<data name="MediaServicesApiVersion" xml:space="preserve">
+        <value>2.15</value>
+    </data>
+</root>

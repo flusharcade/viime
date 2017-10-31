@@ -1,0 +1,45 @@
+<Application
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:t="clr-namespace:Viime.Triggers;assembly=Viime"
+    xmlns:controls="clr-namespace:Viime.Controls;assembly=Viime"
+    xmlns:converters="clr-namespace:Viime.Converters;assembly=Viime"
+    xmlns:resx="clr-namespace:Viime.Portable.Resources;assembly=Viime.Portable"
+    x:Class="Viime.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- converters -->
+            <converters:NotConverter x:Key="notConverter"/>
+            <converters:OrientationToBoolConverter x:Key="orientationToBoolConverter"/>
+            <converters:BoolToStringConverter x:Key="boolToStringConverter"/>
+            <converters:BoolToPartialConverter x:Key="boolToPartialConverter"/>
+            <converters:OrientationToIntConverter x:Key="orientationToIntConverter"/>
+            <converters:ByteArrayToImageSourceConverter x:Key="byteArrayToImageSourceConverter"/>
+        
+            <!-- styles -->
+            <Style x:Key="BaseButtonStyle" TargetType="Button">
+                <Setter Property="TextColor">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="Color"
+                            Android="Navy"
+                            WinPhone="Black"
+                            iOS="Black">
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="FontFamily" Value="Arial" />
+                <Setter Property="BackgroundColor" Value="Silver" />
+            </Style>
+            
+            <Style x:Key="ButtonStyleWithTrigger" TargetType="Button"
+                    BasedOn="{StaticResource BaseButtonStyle}">
+                <Style.Triggers>
+                    <EventTrigger Event="Clicked">
+                        <t:VisualElementPopTriggerAction/>
+                    </EventTrigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>  

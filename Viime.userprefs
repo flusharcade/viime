@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{DD942D28-518D-4C06-A0D9-A7D8AB3F54E7}|Default">
+  <MonoDevelop.Ide.ItemProperties.Viime.Droid PreferredExecutionTarget="Android.9885b64b3330584d45" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viime/Viime/Pages/MainPage.xaml.cs">
+    <Files>
+      <File FileName="Viime/Viime.Droid/MainActivity.cs" Line="100" Column="1" />
+      <File FileName="Viime/Viime/Pages/MainPage.xaml.cs" Line="69" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Viime" expanded="True">
+            <Node name="Viime" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/mww121/Desktop/Test 2/Viime/Viime/Pages/MainPage.xaml.cs" relfile="Viime/Viime/Pages/MainPage.xaml.cs" line="69" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>Viime/Viime.UWP/Viime.UWP.csproj</String>
+  </DisabledProjects>
+</Properties>
