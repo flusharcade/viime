@@ -32,21 +32,6 @@ namespace Viime.Portable.ViewModels
 		private readonly IMethods _methods;
 
 		/// <summary>
-		/// The description message.
-		/// </summary>
-		private string _descriptionMessage = "Take a Picture";
-
-		/// <summary>
-		/// The location title.
-		/// </summary>
-        private string _loginTitle = "Login";
-
-		/// <summary>
-		/// The exit title.
-		/// </summary>
-		private string _exitTitle = "Exit";
-
-		/// <summary>
 		/// The location command.
 		/// </summary>
 		private ICommand _loginCommand;
@@ -64,36 +49,6 @@ namespace Viime.Portable.ViewModels
 		#endregion
 
 		#region Public Properties
-
-		/// <summary>
-		/// Gets or sets the description message.
-		/// </summary>
-		/// <value>The description message.</value>
-		public string DescriptionMessage
-		{
-			get { return _descriptionMessage; }
-			set { SetProperty(nameof(DescriptionMessage), ref _descriptionMessage, value); }
-		}
-
-		/// <summary>
-		/// Gets or sets the location title.
-		/// </summary>
-		/// <value>The location title.</value>
-        public string LoginTitle
-		{
-			get { return _loginTitle; }
-			set { SetProperty(nameof(LoginTitle), ref _loginTitle, value); }
-		}
-
-		/// <summary>
-		/// Gets or sets the camera title.
-		/// </summary>
-		/// <value>The camera title.</value>
-		public string ExitTitle
-		{
-			get { return _exitTitle; }
-			set { SetProperty(nameof(ExitTitle), ref _exitTitle, value); }
-		}
 
 		/// <summary>
 		/// Gets or sets the location command.

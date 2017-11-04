@@ -1,13 +1,8 @@
 ﻿<Properties StartupConfiguration="{297AA301-F540-4650-AA32-271E9D6CE8D4}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.Viime.Droid PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Viime/Viime.Portable/Modules/PortableModule.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viime/Viime/Pages/LoginPage.xaml.cs">
     <Files>
-      <File FileName="Viime/Viime/App.xaml.cs" Line="57" Column="1" />
       <File FileName="Viime/Viime/Pages/LoginPage.xaml.cs" Line="43" Column="39" />
-      <File FileName="Viime/Viime/UI/XamarinNavigationExtensions.cs" Line="1" Column="1" />
-      <File FileName="Viime/Viime.Portable/ViewModels/LoginPageViewModel.cs" Line="86" Column="61" />
-      <File FileName="Viime/Viime.Portable/ViewModels/MainPageViewModel.cs" Line="144" Column="99" />
-      <File FileName="Viime/Viime.Portable/Modules/PortableModule.cs" Line="31" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />

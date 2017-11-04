@@ -24,7 +24,7 @@
             <Image x:Name="Image" Source="camera.png" HeightRequest="120" WidthRequest="120" 
                     Grid.Row="0" Grid.Column="0"/>
 
-            <Label x:Name="DesciptionLabel" Text="{Binding DescriptionMessage}" TextColor="Black" 
+            <Label x:Name="DesciptionLabel" Text="Take video" TextColor="Black" 
                     HorizontalOptions="Center" Font="Arial, 20" Grid.Row="1" Grid.Column="0">
                 <Label.Effects>
                     <e:LabelShadowEffect Radius="5" DistanceX="5" DistanceY="5">
@@ -35,19 +35,16 @@
                 </Label.Effects>
             </Label>
             
-            <Button x:Name="LoginButton" Text="{Binding LoginTitle}" 
+            <Button x:Name="CameraButton" Text="Camera" 
                 Command="{Binding LoginCommand}" 
-                Style="{StaticResource BaseButtonStyle}" Grid.Row="2" Grid.Column="0">
+                Style="{StaticResource BaseButtonStyle}" 
+                Grid.Row="2" Grid.Column="0">
                 <Button.Triggers>
                     <EventTrigger Event="Clicked">
                         <t:ButtonClickedTrigger/>
                     </EventTrigger>
                 </Button.Triggers>
             </Button>
-            
-            <Button x:Name="ExitButton" Text="{Binding ExitTitle}" 
-                Command="{Binding ExitCommand}" Style="{StaticResource ButtonStyleWithTrigger}" 
-                Grid.Row="3" Grid.Column="0"/>
         </Grid>
     </ui:ExtendedContentPage.Content>
 </ui:ExtendedContentPage>

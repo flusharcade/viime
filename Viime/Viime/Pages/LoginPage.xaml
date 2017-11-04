@@ -35,7 +35,7 @@
                 </Label.Effects>
             </Label>
             
-            <Button x:Name="LoginButton" Text="{Binding LoginTitle}" 
+            <Button x:Name="LoginButton" Text="Login" 
                 Clicked="OnSignInSignOut"
                 Style="{StaticResource BaseButtonStyle}" Grid.Row="2" Grid.Column="0">
                 <Button.Triggers>
@@ -45,7 +45,7 @@
                 </Button.Triggers>
             </Button>
             
-            <Button x:Name="ExitButton" Text="{Binding ExitTitle}" 
+            <Button x:Name="ExitButton" Text="Exit" 
                 Command="{Binding ExitCommand}" Style="{StaticResource ButtonStyleWithTrigger}" 
                 Grid.Row="3" Grid.Column="0"/>
         </Grid>
