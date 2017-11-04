@@ -28,6 +28,7 @@ namespace Viime.Portable.Modules
 		/// <param name="builder">builder.</param>
 		public void Register(ContainerBuilder builder)
 		{
+            builder.RegisterType<LoginPageViewModel>().SingleInstance();
 			builder.RegisterType<MainPageViewModel> ().SingleInstance();
 			builder.RegisterType<CameraPageViewModel> ().SingleInstance();
 
