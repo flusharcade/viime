@@ -13,7 +13,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
-	<string>7.0</string>
+	<string>8.0</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
@@ -42,6 +42,10 @@
 	<string>Can we use your location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>We are using your location</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Use the camera?</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Use the microphone?</string>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
 	<key>UIBackgroundModes</key>
@@ -66,8 +70,6 @@
 	</array>
 	<key>CFBundleName</key>
 	<string>Camera.iOS</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Chapter 8 would like to access your camera</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>

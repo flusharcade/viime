@@ -130,9 +130,9 @@ namespace Viime.iOS.Renderers.CameraView
 		/// </summary>
 		/// <param name="sender">Sender.</param>
 		/// <param name="e">E.</param>
-		private async void HandleShutter (object sender, EventArgs e)
+		private void HandleShutter (object sender, EventArgs e)
 		{
-			await _bodyshopCameraIOS.TakePhoto ();
+			_bodyshopCameraIOS.TakeVideo ();
 		}
 
 		/// <summary>
@@ -142,7 +142,6 @@ namespace Viime.iOS.Renderers.CameraView
 		/// <param name="e">E.</param>
 		private void HandleOrientationChange (object sender, Orientation e)
 		{
-			_bodyshopCameraIOS.HandleOrientationChange (e);
 		}
 
 		/// <summary>
@@ -152,7 +151,6 @@ namespace Viime.iOS.Renderers.CameraView
 		/// <param name="e">E.</param>
 		private void HandleFocus (object sender, Point e)
 		{
-			_bodyshopCameraIOS.ChangeFocusPoint (e);
 		}
 
 		/// <summary>
@@ -174,7 +172,6 @@ namespace Viime.iOS.Renderers.CameraView
 		/// <param name="args">If set to <c>true</c> arguments.</param>
 		private void HandleFlash (object sender, bool args)
 		{
-			_bodyshopCameraIOS.SwitchFlash (args);
 		}
 
 		/// <summary>
@@ -184,7 +181,6 @@ namespace Viime.iOS.Renderers.CameraView
 		/// <param name="args">Arguments.</param>
 		private void HandleFocusChange (object sender, Point args)
 		{
-			_bodyshopCameraIOS.ChangeFocusPoint (args);
 		}
 
 		#endregion

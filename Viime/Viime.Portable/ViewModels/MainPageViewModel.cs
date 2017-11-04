@@ -17,6 +17,7 @@ namespace Viime.Portable.ViewModels
     using Viime.Portable.DataAccess.Storable;
     using Viime.Portable.Logging;
     using Viime.Portable.Resources;
+    using System.Collections.Generic;
 
     /// <summary>
     /// Main page view model.
@@ -140,6 +141,7 @@ namespace Viime.Portable.ViewModels
 
 			_loginCommand = commandFactory (async () => 
             {
+                await navigation.Navigate(PageNames.CameraPage, new Dictionary<string, object>());
             });
 
             SetupSQLite().ConfigureAwait(false);

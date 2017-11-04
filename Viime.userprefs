@@ -1,30 +1,26 @@
-﻿<Properties StartupConfiguration="{DD942D28-518D-4C06-A0D9-A7D8AB3F54E7}|Default">
-  <MonoDevelop.Ide.ItemProperties.Viime.Droid PreferredExecutionTarget="Android.9885b64b3330584d45" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Viime/Viime/Pages/MainPage.xaml.cs">
+﻿<Properties StartupConfiguration="{297AA301-F540-4650-AA32-271E9D6CE8D4}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.Viime.Droid PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs">
     <Files>
-      <File FileName="Viime/Viime.Droid/MainActivity.cs" Line="100" Column="1" />
-      <File FileName="Viime/Viime/Pages/MainPage.xaml.cs" Line="69" Column="1" />
+      <File FileName="Viime/Viime.iOS/packages.config" Line="1" Column="1" />
+      <File FileName="Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" Line="320" Column="14" />
+      <File FileName="Viime/Viime.iOS/Main.cs" Line="19" Column="1" />
+      <File FileName="Viime/Viime.iOS/Renderers/CameraView/CameraViewRenderer.cs" Line="184" Column="1" />
+      <File FileName="Viime/Viime.iOS/Renderers/CameraView/CustomLFLiveSessionDelegate.cs" Line="2" Column="48" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Viime" expanded="True">
-            <Node name="Viime" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/mww121/Desktop/Test 2/Viime/Viime/Pages/MainPage.xaml.cs" relfile="Viime/Viime/Pages/MainPage.xaml.cs" line="69" column="1" />
+      <Breakpoint file="/Users/mww121/Projects/Viime/Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" relfile="Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" line="191" column="1" />
+      <Breakpoint file="/Users/mww121/Projects/Viime/Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" relfile="Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" line="195" column="1" />
+      <Breakpoint file="/Users/mww121/Projects/Viime/Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" relfile="Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" line="230" column="1" />
+      <Breakpoint file="/Users/mww121/Projects/Viime/Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" relfile="Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" line="294" column="1" />
+      <Breakpoint file="/Users/mww121/Projects/Viime/Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" relfile="Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" line="292" column="1" />
+      <Breakpoint file="/Users/mww121/Projects/Viime/Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" relfile="Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" line="298" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Viime.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.b7b4ff703fe5d4e3679fc2d053ee91be53a84f14" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <DisabledProjects>

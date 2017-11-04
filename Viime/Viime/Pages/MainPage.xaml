@@ -36,7 +36,7 @@
             </Label>
             
             <Button x:Name="LoginButton" Text="{Binding LoginTitle}" 
-                Command="{Binding LoginCommand}" Clicked="OnSignInSignOut"
+                Command="{Binding LoginCommand}" 
                 Style="{StaticResource BaseButtonStyle}" Grid.Row="2" Grid.Column="0">
                 <Button.Triggers>
                     <EventTrigger Event="Clicked">

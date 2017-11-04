@@ -106,5 +106,11 @@ namespace Viime.Portable.Resources {
                 return ResourceManager.GetString("MediaServicesApiVersion", resourceCulture);
             }
         }
+        
+        public static string MediaServicesRtmpUrl {
+            get {
+                return ResourceManager.GetString("MediaServicesRtmpUrl", resourceCulture);
+            }
+        }
     }
 }
