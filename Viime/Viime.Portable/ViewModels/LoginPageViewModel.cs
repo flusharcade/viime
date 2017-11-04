@@ -14,6 +14,8 @@ namespace Viime.Portable.ViewModels
 	using Viime.Portable.Extras;
     using Viime.Portable.Logging;
     using Viime.Portable.DataAccess.Storage;
+    using System.Threading.Tasks;
+    using System.Collections.Generic;
 
     /// <summary>
     /// Main page view model.
@@ -28,24 +30,9 @@ namespace Viime.Portable.ViewModels
 		private readonly IMethods _methods;
 
 		/// <summary>
-		/// The description message.
-		/// </summary>
-		private string _descriptionMessage = "Take a Picture";
-
-		/// <summary>
-		/// The location title.
-		/// </summary>
-		private string _cameraTitle = "Camera";
-
-		/// <summary>
-		/// The exit title.
-		/// </summary>
-		private string _exitTitle = "Exit";
-
-		/// <summary>
 		/// The location command.
 		/// </summary>
-		private ICommand _cameraCommand;
+        private ICommand _loginCommand;
 
 		/// <summary>
 		/// The exit command.
@@ -55,46 +42,6 @@ namespace Viime.Portable.ViewModels
 		#endregion
 
 		#region Public Properties
-
-		/// <summary>
-		/// Gets or sets the description message.
-		/// </summary>
-		/// <value>The description message.</value>
-		public string DescriptionMessage
-		{
-			get { return _descriptionMessage; }
-			set { SetProperty(nameof(DescriptionMessage), ref _descriptionMessage, value); }
-		}
-
-		/// <summary>
-		/// Gets or sets the location title.
-		/// </summary>
-		/// <value>The location title.</value>
-		public string CameraTitle
-		{
-			get { return _cameraTitle; }
-			set { SetProperty(nameof(CameraTitle), ref _cameraTitle, value); }
-		}
-
-		/// <summary>
-		/// Gets or sets the camera title.
-		/// </summary>
-		/// <value>The camera title.</value>
-		public string ExitTitle
-		{
-			get { return _exitTitle; }
-			set { SetProperty(nameof(ExitTitle), ref _exitTitle, value); }
-		}
-
-		/// <summary>
-		/// Gets or sets the location command.
-		/// </summary>
-		/// <value>The location command.</value>
-		public ICommand CameraCommand
-		{
-			get { return _cameraCommand; }
-			set { SetProperty(nameof(CameraCommand), ref _cameraCommand, value); }
-		}
 
 		/// <summary>
 		/// Gets or sets the exit command.
@@ -122,22 +69,22 @@ namespace Viime.Portable.ViewModels
 		{
 			_methods = methods;
 
-			logger.WriteLine("Hello Michael");
-
 			_exitCommand = commandFactory (async () =>
 			{
 				await NotifyAlert("GoodBye!!");
 
 				_methods.Exit();
 			});
-
-            _cameraCommand = commandFactory (async () => {
-                //await Navigation.Navigate(PageNames.CameraPage, null);
-
-
-            });
 		}
 
 		#endregion
+
+        public async Task AuthFinished(bool success)
+        {
+            if (success)
+            {
+                await Navigation.Navigate(PageNames.MainPage, new Dictionary<string, object>());
+            }
+        }
 	}
 }

@@ -31,14 +31,15 @@ namespace Viime.Modules
 		/// <param name="builder">builder.</param>
 		public void Register(ContainerBuilder builder)
 		{
+            // pages
+            builder.RegisterType<LoginPage>().SingleInstance();
 			builder.RegisterType<MainPage> ().SingleInstance();
 			builder.RegisterType<CameraPage> ().SingleInstance();
-
-			builder.RegisterType<Command> ().As<ICommand>().InstancePerDependency();
-
-			builder.Register (x => new NavigationPage(x.Resolve<MainPage>())).AsSelf().SingleInstance();
-
 			builder.RegisterType<NavigationService> ().As<INavigationService>().SingleInstance();
+
+            builder.Register(x => new NavigationPage(x.Resolve<LoginPage>())).AsSelf().SingleInstance();
+
+            builder.RegisterType<Command>().As<ICommand>().InstancePerDependency();
 		}
 
 		#endregion

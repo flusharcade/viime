@@ -13,6 +13,11 @@ namespace Viime.Portable.Enums
 	{
 		#region Properties
 
+        /// <summary>
+        /// The login page.
+        /// </summary>
+        LoginPage,
+
 		/// <summary>
 		/// The main page.
 		/// </summary>

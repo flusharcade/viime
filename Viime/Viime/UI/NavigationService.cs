@@ -64,6 +64,8 @@ namespace Viime.UI
 		{
 			switch(page)
 			{
+                case PageNames.LoginPage:
+                    return IoC.Resolve<LoginPage>();
 				case PageNames.MainPage:
 					return IoC.Resolve<MainPage> ();
 				case PageNames.CameraPage:
