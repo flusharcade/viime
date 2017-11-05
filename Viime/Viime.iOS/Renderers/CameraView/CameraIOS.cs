@@ -194,7 +194,7 @@ namespace Viime.iOS.Renderers.CameraView
 
                     var stream = new LFLiveStreamInfo();
 
-                    stream.Url = Config.MediaServicesRtmpUrl;
+                    stream.Url = rtmpUrl;
 
                     var audioConfiguration = new LFLiveAudioConfiguration
                     {

@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{297AA301-F540-4650-AA32-271E9D6CE8D4}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.Viime.Droid PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Viime/Viime/Pages/LoginPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viime/Viime.iOS/Renderers/CameraView/CustomLFLiveSessionDelegate.cs">
     <Files>
-      <File FileName="Viime/Viime/Pages/LoginPage.xaml.cs" Line="43" Column="39" />
+      <File FileName="Viime/Viime.iOS/Renderers/CameraView/CustomLFLiveSessionDelegate.cs" Line="53" Column="32" />
+      <File FileName="Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" Line="230" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/mww121/Projects/Viime/Viime/Viime.iOS/Renderers/CameraView/CustomLFLiveSessionDelegate.cs" relfile="Viime/Viime.iOS/Renderers/CameraView/CustomLFLiveSessionDelegate.cs" line="42" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Viime.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.b7b4ff703fe5d4e3679fc2d053ee91be53a84f14" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
