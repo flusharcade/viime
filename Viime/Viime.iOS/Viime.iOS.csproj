@@ -218,7 +218,7 @@
       <Project>{6DA1DAB1-CEFB-494D-964C-54BFD228E687}</Project>
       <Name>Viime</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\LFLiveKit.iOS\src\LFLiveKit\LFLiveKit.csproj">
+    <ProjectReference Include="..\..\Xamarin-LFLiveKit\src\LFLiveKit\LFLiveKit.csproj">
       <Project>{3453656C-E0D8-412F-91CE-7FE28B0F5644}</Project>
       <Name>LFLiveKit</Name>
     </ProjectReference>

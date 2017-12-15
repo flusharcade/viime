@@ -26,7 +26,7 @@ namespace Viime
         public static string PolicySignUpSignIn = "B2C_1_viime-signup-signon-policy";
         public static string PolicyEditProfile = "B2C_1_viime-signup-signon-policy";
         public static string PolicyResetPassword = "B2C_1_viime-password-reset-policy";
-        public static string[] Scopes = {"https://viime.onmicrosoft.com/api"};
+        public static string[] Scopes = { "https://viime.onmicrosoft.com/api" };
 
         public static string AuthorityBase = $"https://login.microsoftonline.com/tfp/{Config.ActiveDirectoryTenantId}/";
         public static string Authority = $"{AuthorityBase}{PolicySignUpSignIn}";

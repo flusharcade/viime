@@ -1,9 +1,13 @@
 ﻿<Properties StartupConfiguration="{297AA301-F540-4650-AA32-271E9D6CE8D4}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.Viime.Droid PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Viime/Viime.iOS/Renderers/CameraView/CustomLFLiveSessionDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Viime/Viime.iOS/Renderers/CameraView/CameraViewRenderer.cs">
     <Files>
-      <File FileName="Viime/Viime.iOS/Renderers/CameraView/CustomLFLiveSessionDelegate.cs" Line="42" Column="1" />
-      <File FileName="Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" Line="197" Column="41" />
+      <File FileName="Viime/Viime.Portable/Resources/Config.resx" Line="47" Column="112" />
+      <File FileName="Viime/Viime.Portable/Resources/Config.Designer.cs" Line="18" Column="67" />
+      <File FileName="Viime/Viime.iOS/Renderers/CameraView/CameraIOS.cs" Line="80" Column="61" />
+      <File FileName="Viime/Viime.Portable/ViewModels/CameraPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="Viime/Viime/Pages/CameraPage.xaml.cs" Line="318" Column="2" />
+      <File FileName="Viime/Viime.iOS/Renderers/CameraView/CameraViewRenderer.cs" Line="52" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
